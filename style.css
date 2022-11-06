@@ -1,0 +1,178 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	width: 100vw;
+}
+
+.top {
+	background-color: #1f2937;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10vw;
+}
+
+.top h2 {
+	font-size: 48px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	gap: 7px;
+}
+
+h1,
+h2	{
+	margin: 0;
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.lnk {
+	color: white;
+	text-decoration: none;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.intro-content {
+	flex-direction: row;
+	display: flex;
+	padding: 50px;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	align-content: flex-start;
+	text-align: left;
+}
+
+.right-column h2 {
+	color:#f9faf8;
+	font-weight: bolder;
+}
+
+.right-column p {
+	color: white;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.left-column {
+	margin-left: auto;
+}
+
+button {
+	background-color: #3882F6;
+	border-radius: 5px;
+	color: white;
+	border-color: transparent;
+	max-width: fit-content;
+	padding: 7px 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	}
+
+.content h2 {
+	font-weight: bolder;
+	
+}
+
+
+.photos {
+	flex-direction: row;
+	display: flex;
+	text-align: center;
+}
+
+figure img{
+	border: 3px #3882f6 solid;
+	text-align: center;
+	border-radius: 7px;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.pics {
+	padding: 15px 20vw;
+}
+
+.pics h2 {
+	color: #1f2937;
+	text-align: center;
+	font-size: 36px;
+
+}
+
+.quote {
+	background-color: #e5e7eb;
+	padding: 15px 20vw;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #1F2937;
+}
+
+.quote p {
+	margin: 0;
+}
+
+.quote-source {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: right;
+}
+
+.cta {
+	background-color: #3882f6;
+	color: white;
+	margin: 40px 10vw;
+	padding: 20px 10vw;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cta h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cta p {
+	margin: 0;
+}
+
+.cta button {
+	border-color: white;
+	flex: 0 1 content;
+	padding: 5px 30px;
+	display: flex;
+	align-self: center;
+	justify-self: center;
+}
+
+.footer {
+	text-align: center;
+	background-color: #1f2937;
+	color: white;
+	width: 100vw;
+	padding: 20px 0px;
+	margin: auto;
+}
