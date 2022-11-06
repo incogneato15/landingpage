@@ -3,13 +3,14 @@ body {
 	flex-direction: column;
 	margin: 0;
 	width: 100vw;
+	font-family: "Roboto", serif;
 }
 
 .top {
 	background-color: #1f2937;
 	display: flex;
 	flex-direction: column;
-	padding: 0px 10vw;
+	padding: 0px 13vw;
 }
 
 .top h2 {
@@ -20,6 +21,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	gap: 7px;
+	padding: 10px 0px;
 }
 
 h1,
@@ -27,7 +29,7 @@ h2	{
 	margin: 0;
 }
 
-.logo {
+.logo h1{
 	font-size: 24px;
 	color: #f9faf8;
 }
@@ -37,12 +39,28 @@ h2	{
 	text-decoration: none;
 	color: #e5e7eb;
 	font-size: 18px;
+	padding: 5px 20px;
 }
 
 .intro-content {
 	flex-direction: row;
 	display: flex;
-	padding: 50px;
+	padding: 50px 0px;
+}
+
+.placeholder {
+	background-color: grey;
+	color: white;
+	width: 375px;
+	height: 220px;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+.placeholder p {
+	display: flex;
+	margin: auto;
 }
 
 .right-column {
@@ -84,11 +102,6 @@ button {
 	
 	}
 
-.content h2 {
-	font-weight: bolder;
-	
-}
-
 
 .photos {
 	flex-direction: row;
@@ -100,32 +113,37 @@ figure img{
 	border: 3px #3882f6 solid;
 	text-align: center;
 	border-radius: 7px;
+	marfin: 20px;
 }
 
 figure {
 	text-align: center;
+	margin: 0;
+	padding: 15px;
 }
 
 figcaption {
 	text-align: center;
+	font-size: small;
 }
 
 .pics {
-	padding: 15px 20vw;
+	padding: 32px 12vw;
 }
 
 .pics h2 {
 	color: #1f2937;
 	text-align: center;
 	font-size: 36px;
-
+	padding: 12px 0px;
 }
 
 .quote {
 	background-color: #e5e7eb;
-	padding: 15px 20vw;
+	padding: 11vh 20vw;
 	font-size: 36px;
-	font-weight: lighter;
+	font-weight: 100;
+	font-style: italic;
 	color: #1F2937;
 }
 
@@ -137,13 +155,14 @@ figcaption {
 	font-weight: bold;
 	font-size: 20px;
 	text-align: right;
+	font-style: normal;
 }
 
 .cta {
 	background-color: #3882f6;
 	color: white;
-	margin: 40px 10vw;
-	padding: 20px 10vw;
+	margin: 70px 10vw;
+	padding: 45px 10vw;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: row;
